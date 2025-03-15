@@ -52,6 +52,15 @@ const MyScreen = () => {
 export default MyScreen;
 ```
 
+## Props
+
+| name | required | type | description |
+| ---- | ---- | ---- | ----        |
+| `children` | ✅ | React.ReactNode | child elements to render inside the view |
+| `scrollViewProps` |  | ScrollViewProps | react native scroll view Props |
+| `containerViewProps` |  | ViewProps | react native view props |
+| `bottomPadding` |  | number | additional space between kyeboard and cursor if required |
+
 ## Why Was This Built?
 
 This package was created to provide a reliable, plug-and-play solution for handling keyboard avoidance in React Native apps. Unlike existing solutions, it eliminates the need for manual calculations and ensures that inputs never get hidden behind the keyboard.
