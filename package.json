@@ -9,7 +9,10 @@
     "name": "Ajay Gupta",
     "url": "https://ajayg.co"
   },
-  "repository": "git+https://github.com/ajaygco/smart-keyboard-avoider.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaygco/smart-keyboard-avoider.git"
+  },
   "homepage": "https://github.com/ajaygco/smart-keyboard-avoider#readme",
   "bugs": {
     "url": "https://github.com/ajaygco/smart-keyboard-avoider/issues"
