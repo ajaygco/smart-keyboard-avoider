@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "name": "@ajaygco/smart-keyboard-avoider",
+  "description": "A smart keyboard avoider for React Native that actually works",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Ajay Gupta",
+    "url": "https://ajayg.co"
+  },
+  "repository": "git+https://github.com/ajaygco/smart-keyboard-avoider.git",
+  "homepage": "https://github.com/ajaygco/smart-keyboard-avoider#readme",
+  "bugs": {
+    "url": "https://github.com/ajaygco/smart-keyboard-avoider/issues"
+  },
+  "keywords": [
+    "react-native",
+    "keyboard avoiding view",
+    "keyboard",
+    "avoiding",
+    "view"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
