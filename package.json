@@ -14,6 +14,15 @@
   "bugs": {
     "url": "https://github.com/ajaygco/smart-keyboard-avoider/issues"
   },
+  "files": [
+    "lib",
+    ".gitignore",
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "tsconfig.json",
+    "yarn.lock"
+  ],
   "keywords": [
     "react-native",
     "keyboard avoiding view",
@@ -31,5 +40,6 @@
   },
   "peerDependencies": {
     "react-native": "*"
-  }
+  },
+  "access": "public"
 }
